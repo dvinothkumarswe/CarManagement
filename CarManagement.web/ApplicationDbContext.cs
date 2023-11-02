@@ -1,3 +1,5 @@
-﻿internal class ApplicationDbContext
+﻿using Microsoft.EntityFrameworkCore;
+
+public class ApplicationDbContext: DbContext
 {
 }
